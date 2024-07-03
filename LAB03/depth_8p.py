@@ -76,7 +76,9 @@ def depth_first_search(initial_state, goal_state):
 if __name__ == '__main__':
     # Example usage:
     # initial_puzzle = [1, 2, 3, 4, 0, 5, 6, 7, 8]
-    initial_puzzle = [1,2,3,0,4,6,7,5,8]
+    # initial_puzzle =  [1, 2, 3, 4, 5, 6, 0, 7, 8]
+    # initial_puzzle =  [1, 2, 3, 0, 5, 6, 4, 7, 8]
+    initial_puzzle =  [1, 2, 3, 4, 5, 6, 0, 7, 8]
     goal_puzzle = [1, 2, 3, 4, 5, 6, 7, 8, 0]
 
     initial_state = PuzzleState(initial_puzzle)
